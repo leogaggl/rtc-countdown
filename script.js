@@ -1,5 +1,5 @@
 
-var rtc_end = new Date("2023-04-12T02:48:00Z");
+var rtc_end = new Date("2023-04-12T03:38:00Z");
 
 function loadData() {
     document.getElementById('rtc').innerHTML = rtc_end;
