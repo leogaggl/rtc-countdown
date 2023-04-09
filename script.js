@@ -1,16 +1,14 @@
 
-var nYr = new Date().getFullYear() + 1;
+var rtc_end = new Date("2023-04-12T02:48:00Z");
 
-var countDate = new Date(`Jan 1, ${new Date().getFullYear() + 1} 00:00:00:`).getTime();
-
-function showYear(targetElementId) {
-    document.getElementById(targetElementId).innerHTML = nYr;
+function loadData() {
+    document.getElementById('rtc').innerHTML = rtc_end;
 }
 
 // ! Function
 function newYear() {
     var now = new Date().getTime();
-    gap = countDate - now;
+    gap = rtc_end - now;
 
     // var ms = 100;
     var second = 10 * 100;
