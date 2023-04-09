@@ -1,4 +1,5 @@
-# [New Year Count-Down](https://ujjawalmaurya.github.io/countdown)
+# RTC Countdown
 
-> [![](./assets/countdown-preview.png)](https://ujjawalmaurya.github.io/countdown)
-> Click above image to to see live
+A Countdown page that shows the time remaining for the "Regional Temperature Check" for AU915 frequency plan on Helium LoRaWAN (as well as the manually updated regional count for Australia).
+
+Just remember - AU stands for AUSTRALIA :-)
